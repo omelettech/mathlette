@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "bigeval": "^3.2.2",
+    "jsxgraph": "^1.8.0"
+  }
+}

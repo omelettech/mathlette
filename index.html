@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mathlette</title>
+    <script type="text/javascript" charset="UTF-8"
+            src="https://cdn.jsdelivr.net/npm/jsxgraph/distrib/jsxgraphcore.js"></script>
+    <script src="node_modules/bigeval/BigEval.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/jsxgraph/distrib/jsxgraph.css" />
+</head>
+<body>
+<h1>Mathlette</h1>
+<h2>Solves your equation (a few of them)</h2>
+
+<div>
+    <input id="equation-input" type="text">
+</div>
+<div class="functions">
+    <input type="radio"  id="Derivative" name="operation" value="1">
+    <label for="Derivative">Derivative</label><br>
+    <input type="radio" id="css" name="operation" value="2">
+    <label for="css">nil</label><br>
+    <input type="radio" id="javascript" name="operation" value="3">
+    <label for="javascript">nil</label>
+    <input type="button" id="calculate">
+</div>
+
+<div id="box" class="jxgbox" style="width:500px; height:500px;"></div>
+
+<script src="math.js"></script>
+
+</body>
+
+</html>
