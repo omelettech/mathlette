@@ -24,19 +24,24 @@
 <div >
     <label for="equation-input" style="font-size: 24px;">f(x)=</label>
     <input id="equation-input" type="text" style="width:500px;height:32px;font-size: 24px;">
-</div>
-<div class="functions">
-    <input type="radio"  id="Derivative" name="operation" value="1">
-    <label for="Derivative">Derivative</label><br>
-    <input type="radio" id="css" name="operation" value="2">
-    <label for="css">nil</label><br>
-    <input type="radio" id="javascript" name="operation" value="3">
-    <label for="javascript">nil</label><br>
     <input type="button" id="calculate" value="draw">
 </div>
 
-<div id="box" class="jxgbox" style="width:500px; height:500px;"></div>
 
+
+<div id="box" class="jxgbox" style="width:500px; height:500px;"></div>
+<div class="functions">
+    <input type="radio"  id="Derivative" name="operation" value="1">
+    <label for="Derivative">Derivative</label><br>
+    <input type="radio" id="Integrate" name="operation" value="2">
+    <label for="Integrate">Integrate</label><br>
+    <input type="radio" id="Transformation" name="operation" value="3">
+    <label for="Transformation">Transformation</label><br>
+    <input type="button" id="evaluate" value="evaluate">
+        <div style="display: grid">
+
+        </div>
+</div>
 <script type="module" src="script/main.js"></script>
 
 
